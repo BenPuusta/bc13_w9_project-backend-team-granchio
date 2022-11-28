@@ -56,3 +56,6 @@ const backupPostsWithComments = [
 ];
 
 export default backupPostsWithComments;
+
+//good use of indentation, good column headers easy to understand names
+//this seems like a JS version of your db? presumably used for testing - quick comment to clarify this would be good

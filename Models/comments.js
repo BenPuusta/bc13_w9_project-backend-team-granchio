@@ -14,3 +14,7 @@ async function createComment(post) {
 }
 
 export default createComment;
+
+// nice function name
+// good use of indentation
+// add a comment saying what type of variable would be passed in on line 4

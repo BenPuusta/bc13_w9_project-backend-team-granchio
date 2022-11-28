@@ -3,6 +3,7 @@ import createComment from "../Models/comments.js";
 
 export const commentsRouter = express.Router();
 
+//nice comment on the line below - clear and concise 
 // post a comment.
 commentsRouter.post("/", async function (req, res) {
   const data = req.body;
@@ -22,3 +23,5 @@ commentsRouter.post("/", async function (req, res) {
 //   const deletedComment = await deleteComment(req);
 //   res.json({ success: true, payload: deletedComment });
 // });
+
+//again I'm thinking the commented out parts are probably things you wanted to complete in the next sprint?

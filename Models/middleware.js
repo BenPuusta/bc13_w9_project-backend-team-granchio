@@ -19,6 +19,7 @@ const adjectivesArr = [
   "Dippy",
 ];
 
+
 const nounArr = [
   "Duck",
   "Duck",
@@ -46,9 +47,12 @@ const nounArr = [
 function getDuckName() {
   console.log("duck name please good sir?");
   let firstName =
-    adjectivesArr[Math.floor(Math.random() * adjectivesArr.length)];
+  adjectivesArr[Math.floor(Math.random() * adjectivesArr.length)];
   let secondName = nounArr[Math.floor(Math.random() * nounArr.length)];
   return `${firstName} ${secondName}`;
 }
 
 export default getDuckName;
+
+//well named variables and function name
+// I don't think you need to say Duck so many times as you're using math.random later

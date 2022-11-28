@@ -1,3 +1,4 @@
+// router on the line below isn't being used anywhere - this is so minor but I guess if there was time just delete that word
 import express, { Router } from "express";
 import { createPost } from "../Models/post.js";
 import getAllPostsandComments from "../Models/post.js";
@@ -37,3 +38,6 @@ postsRouter.post("/", async function (req, res) {
 
 // //getposts by title search VERSION 2
 // //
+
+//easy to follow, clear and well indented
+//could the commented out parts be removed or do you want them for editing in future sprints? add comment if for future use

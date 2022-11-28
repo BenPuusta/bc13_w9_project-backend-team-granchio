@@ -17,3 +17,6 @@ app.use("/api/comments", commentsRouter);
 app.listen(PORT, function () {
   console.log(`Server is running on port ${PORT}`);
 });
+
+//this document is all pretty clear
+//I like the gaps between separate sections of the code - helps readability
