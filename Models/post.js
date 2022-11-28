@@ -63,3 +63,8 @@ export default getAllPostsandComments;
 //change getAllPosts to MEGA GET request
 //Middleware to correctly form the data for the frontend for MEGA GET
 //Patch comment, Patch post , Search by whateverr
+
+
+// code review:
+//1. Write a few lines of comments on each functions to explain what they are intended to do. 
+//2. remove the codes that have been commented out. or clarify if they are to be used in the next sprint. 
